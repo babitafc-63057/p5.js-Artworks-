@@ -3,7 +3,7 @@ let reverb;
 let audioStarted = false;
 
 function setup() {
-  createCanvas(760, 900);
+  createCanvas(700, 850);
   noStroke();
   textAlign(CENTER);
   
@@ -101,7 +101,7 @@ function draw() {
   arc(cx, cy, 340, 340, HALF_PI, PI + HALF_PI, PIE);
   
     
-  translate(0,-45);
+  translate(0,-40);
 
   /* ---------- FOOTER ---------- */
   fill(255);
